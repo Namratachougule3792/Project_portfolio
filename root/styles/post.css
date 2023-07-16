@@ -1,0 +1,151 @@
+.header{
+    display: flex;
+  }
+  .main-head
+  {
+    font-family: 'Montez', cursive; 
+    font-size: 40px;
+    color: blue;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+  }
+
+  .sub-head{
+    font-family: 'Ubuntu Mono', monospace;
+    padding: 0;
+    margin: 0;
+  }
+
+  .logo{
+    align-items: all;
+    justify-content: left;
+    margin-left: 5px;
+    }
+
+  .log-in{
+    display: flex;
+    justify-content: right;
+    margin-left: 900px;
+  }
+
+  .log-in button{
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+    justify-content: center;
+    height: 25px;
+    width: 85px;
+  }
+
+  .sign-up, .sign-in{
+    margin: 8px;   
+  }
+
+
+  #post_title{
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .container{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 0px;
+  }
+
+  .author-edit{
+    display: flex;
+  }
+
+  .author-edit p{
+    font-size: 20px;
+  }
+
+  .author-edit button{
+    margin-left: 1100px;
+    height: 30px;
+    width: 80px;
+  }
+
+  #para_edit {
+    text-align: justify;
+  }
+
+
+  #edit_button{
+    color: white;
+    background-color: #DE3163;
+    box-shadow: 0px 8px 15px #DE3163;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 1050px;
+  }
+
+  #save_button{
+    color: white;
+    background-color: #DE3163;
+    box-shadow: 0px 8px 15px #DE3163;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 1050px;
+    display: none;
+  }
+
+  #edit, #save{
+    padding-left: 10px;
+  }
+
+  #edit-icon{
+    padding-left: 30px;
+  }
+
+  .editable{
+    border: 2px solid pink;
+    padding: 5px;
+  }
+
+
+  .like-section {
+  display: block;
+  align-items: center;
+}
+
+#likeButton {
+    color: white;
+    background-color: #DE3163;
+    box-shadow: 0px 8px 15px #DE3163;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+}
+
+#likeButton.liked {
+  color: green;
+}
+
+#likeCount {
+  margin-left: 10px;
+}
+
+.clicked{
+  color: white;
+}
+
+
+  

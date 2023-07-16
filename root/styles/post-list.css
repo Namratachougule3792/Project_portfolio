@@ -1,0 +1,173 @@
+body{
+    
+    background-color: #ffeedd;
+    width: 100vw;
+    height: 100vh;
+    margin; 0;
+    
+  }
+
+  .header{
+    display: flex;
+  }
+  .main-head
+  {
+    font-family: 'Montez', cursive; 
+    font-size: 40px;
+    color: blue;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+  }
+
+  .sub-head{
+    font-family: 'Ubuntu Mono', monospace;
+    padding: 0;
+    margin: 0;
+  }
+
+  .logo{
+    align-items: all;
+    justify-content: left;
+    margin-left: 5px;
+    }
+
+  .log-in{
+    display: flex;
+    justify-content: right;
+    margin-left: 900px;
+  }
+
+  .log-in button{
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+    justify-content: center;
+    height: 25px;
+    width: 85px;
+  }
+
+  .sign-up, .sign-in{
+    margin: 8px;   
+  }
+
+
+
+  .card{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 550px;
+    height: 165px;
+    background-color: #E5E7E9;
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .card:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        }
+
+  .author{
+    padding-top: 30px;
+    padding-left: 10px;
+    background-color: white;
+    flex-basis: 30%;
+    font-size: 17px;
+  }
+
+  .blog-main{
+    
+    padding-left: 30px;
+  }
+
+  .blog-head{
+    color: #909497;
+    display: flex;
+  }
+
+  .blog-head p{
+    padding-left: none;
+    width: 400px;
+  }
+
+  .blog-content{
+    flex-basis: 80%;
+    margin: 0;
+  }
+
+  .blog-content .p{
+    justify-content: center;
+  }
+
+  .container-card{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 20px;
+    justify-content: center;
+  }
+
+
+  .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.849);
+      z-index: 1;
+      display: none;
+    }
+    
+    #delete-icon {
+      color: #95A5A6;
+      top: 10px;
+      right: 10px;
+      padding-top: 20px;
+      align-content: right;
+      cursor: pointer;
+      justify-content: flex-end;
+    }
+
+    .delete-message {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      color: black;
+      padding: 20px;
+      z-index: 2;
+      display: none;
+    }
+    
+    .delete-message #yesbutton{
+      background-color: green;
+      color: white;
+      border:none;
+      width: 70px;
+      height: 30px;
+      cursor: pointer;
+    }
+
+    .delete-message #nobutton{
+      background-color: red;
+      color: white;
+      border:none;
+      cursor: pointer;  
+      margin-left: 140px;
+      width: 70px;
+      height: 30px;
+    }
+    
+    .delete-message p {
+      margin-bottom: 10px;
+      margin-top: 0;
+    }
+
+
+    .three-dot{
+      justify-content: flex-end;
+      padding-left: 380px;
+      cursor: pointer;
+    }

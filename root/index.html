@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Index Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="C:\Users\Sourabh4483\Desktop\MCA\New folder\Project\root\styles\style.css">
+  <script src="C:\Users\Sourabh4483\Desktop\MCA\New folder\Project\root\scripts\script.js"></script>
+
+</head>
+
+<body style=" background-image: url('bg.jpg');">
+
+  <div class="header">
+    <div class = "logo">
+      <p class = "main-head">Sribbler</p>
+      <p class = "sub-head">Explore, Imagine, Create</p>
+    </div>
+
+    <div class = "log-in">
+      <div class="sign-up">
+        <button onclick="openSignUpModal()">Sign Up</button>
+      </div>
+      <div class = "sign-in">
+        <button onclick="openSignInModal()">Sign In</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="signupModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <p id = "get-started">Get Started</p>
+      <hr>
+      <form>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" required placeholder="Enter your name"><br>
+
+        <label for="username">Username</label><br>
+        <input type="email" id="email" name="email" required placeholder="Enter your username"><br>
+
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password" required placeholder="Enter your password"><br>
+
+        <lable for="Confirm-Password">Confirm Password</label><br>
+        <input type="Confirm-Password" name="confirm password" required placeholder="Re-enter your password"><br>
+
+        <input style="background-color: #2ECC71; color: white; border: none; width: 380px; height: 40px;"  type="submit" value="Sign Up">
+      </form>
+    </div>
+  </div>
+
+  <div id="signinModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <p id = "get-started">Welcome Back!</p>
+      <hr>
+      <form>
+        <label for="email">Username</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your username"><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required placeholder="Enter your password"><br>
+
+        <input style="background-color: #2ECC71; color: white; border: none; width: 380px; height: 40px;" type="submit" value="Sign In">
+
+
+        <div class="not-member">
+          <p>Not a member?</p>
+          <a href="#" id="#signinModal">Sign Up</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <div class = "content"> 
+    <div class = "all-post">
+      <button><a href = "C:\Users\Sourabh4483\Desktop\MCA\New folder\Project\root\html\post-list.html" style="color: inherit; text-decoration: none;">All Posts</a></button>
+    </div>
+    <div class = "create-post"> 
+      <button onclick="openCreateModal()">Create Post</button>
+    </div>
+  </div>
+
+
+<div id="createpostmodal" class="modal">
+    <div class="modal-content-post">
+      <span class="close-post" onclick="closeModal()">&times;</span>
+      <p id = "pen-your-post">Pen Your Post</p>
+      <hr>
+      <form id="createpost">
+        <label for="name" id= "post-title">Title</label><br>
+        <input type="text" id="post-title-name" required placeholder="Enter Title of your post."><br>
+
+        <label for="username" id="post-content">Contents</label><br>
+        <!--<input type="email" id="post-content-main" required placeholder="Enter the contents of your post."><br>-->
+        <textarea rows="4" cols="50" placeholder="Enter the contents of your post." type = "text"></textarea>
+
+        <input id="createpostbtn"  type="submit" value="Create">
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
